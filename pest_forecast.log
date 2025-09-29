@@ -1,0 +1,51 @@
+2025-09-02 19:38:31,677 - prediction.forecast_engine - ERROR - Error initializing forecast engine: OpenWeatherMap API key is required
+2025-09-02 19:38:31,677 - root - ERROR - Demo execution failed
+Traceback (most recent call last):
+  File "C:\Users\subha\Downloads\pest\main.py", line 37, in run_demo
+    forecast_engine.initialize_components()
+  File "C:\Users\subha\Downloads\pest\src\prediction\forecast_engine.py", line 37, in initialize_components
+    self.weather_collector = WeatherCollector()
+                             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\subha\Downloads\pest\src\data\weather_collector.py", line 19, in __init__
+    raise ValueError("OpenWeatherMap API key is required")
+ValueError: OpenWeatherMap API key is required
+2025-09-02 19:42:15,017 - prediction.forecast_engine - INFO - Forecast engine initialized successfully
+2025-09-02 19:42:15,018 - src.data.pest_data - INFO - Added pest observation: aphids at (36.7883, -119.42790000000001)
+2025-09-02 19:42:15,018 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.7883, -119.42790000000001)
+2025-09-02 19:42:15,018 - src.data.pest_data - INFO - Added pest observation: aphids at (36.7683, -119.4079)
+2025-09-02 19:42:15,018 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.7683, -119.4079)
+2025-09-02 19:42:15,018 - src.data.pest_data - INFO - Added pest observation: aphids at (36.783300000000004, -119.41290000000001)
+2025-09-02 19:42:15,018 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.783300000000004, -119.41290000000001)
+2025-09-02 19:42:15,020 - prediction.forecast_engine - ERROR - Error generating forecast: 'dict' object has no attribute 'empty'
+2025-09-02 19:42:22,991 - prediction.forecast_engine - INFO - Forecast engine initialized successfully
+2025-09-02 19:42:22,991 - src.data.pest_data - INFO - Added pest observation: aphids at (36.7883, -119.42790000000001)
+2025-09-02 19:42:22,991 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.7883, -119.42790000000001)
+2025-09-02 19:42:22,991 - src.data.pest_data - INFO - Added pest observation: aphids at (36.7683, -119.4079)
+2025-09-02 19:42:22,991 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.7683, -119.4079)
+2025-09-02 19:42:22,991 - src.data.pest_data - INFO - Added pest observation: aphids at (36.783300000000004, -119.41290000000001)
+2025-09-02 19:42:22,991 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.783300000000004, -119.41290000000001)
+2025-09-02 19:42:22,997 - prediction.forecast_engine - ERROR - Error generating forecast: 'dict' object has no attribute 'empty'
+2025-09-02 19:43:24,088 - prediction.forecast_engine - INFO - Forecast engine initialized successfully
+2025-09-02 19:43:24,088 - src.data.pest_data - INFO - Added pest observation: aphids at (36.7883, -119.42790000000001)
+2025-09-02 19:43:24,088 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.7883, -119.42790000000001)
+2025-09-02 19:43:24,088 - src.data.pest_data - INFO - Added pest observation: aphids at (36.7683, -119.4079)
+2025-09-02 19:43:24,088 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.7683, -119.4079)
+2025-09-02 19:43:24,088 - src.data.pest_data - INFO - Added pest observation: aphids at (36.783300000000004, -119.41290000000001)
+2025-09-02 19:43:24,088 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.783300000000004, -119.41290000000001)
+2025-09-02 19:43:24,114 - src.data.field_data - INFO - Created 5 sample fields
+2025-09-02 19:43:24,413 - mapping.visualization - INFO - Map saved to output_maps\forecast_map.html
+2025-09-02 19:43:24,429 - mapping.visualization - INFO - Map saved to output_maps\interventions_map.html
+2025-09-02 19:43:24,500 - mapping.visualization - INFO - Map saved to output_maps\timeline_map.html
+2025-09-02 19:43:24,500 - mapping.visualization - INFO - Map saved to output_maps\heatmap_map.html
+2025-09-02 19:47:08,840 - prediction.forecast_engine - INFO - Forecast engine initialized successfully
+2025-09-02 19:47:08,844 - src.data.pest_data - INFO - Added pest observation: aphids at (36.7883, -119.42790000000001)
+2025-09-02 19:47:08,844 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.7883, -119.42790000000001)
+2025-09-02 19:47:08,844 - src.data.pest_data - INFO - Added pest observation: aphids at (36.7683, -119.4079)
+2025-09-02 19:47:08,844 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.7683, -119.4079)
+2025-09-02 19:47:08,844 - src.data.pest_data - INFO - Added pest observation: aphids at (36.783300000000004, -119.41290000000001)
+2025-09-02 19:47:08,844 - prediction.forecast_engine - INFO - Added pest observation: aphids at (36.783300000000004, -119.41290000000001)
+2025-09-02 19:47:08,844 - src.data.field_data - INFO - Created 5 sample fields
+2025-09-02 19:47:09,092 - mapping.visualization - INFO - Map saved to output_maps\forecast_map.html
+2025-09-02 19:47:09,092 - mapping.visualization - INFO - Map saved to output_maps\interventions_map.html
+2025-09-02 19:47:09,170 - mapping.visualization - INFO - Map saved to output_maps\timeline_map.html
+2025-09-02 19:47:09,174 - mapping.visualization - INFO - Map saved to output_maps\heatmap_map.html
