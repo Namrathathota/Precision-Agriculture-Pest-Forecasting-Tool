@@ -1,32 +1,32 @@
 # Precision-Agriculture-Pest-Forecasting-Tool
 🌾 A comprehensive tool that provides farmers with 24-72 hour forecast maps of likely pest infestation spread, enabling targeted drone-based spraying or manual intervention to save costs on pesticides and minimize environmental impact.
 
-✨ Features
-🔮 Advanced Forecasting
+# Features
+# Advanced Forecasting
 
 Multi-horizon predictions (24h, 48h, 72h)
 Machine learning-powered pest movement models
 Weather-integrated suitability analysis
 Real-time risk assessment
-🗺️ Interactive Visualizations
+# Interactive Visualizations
 
 Dynamic heat maps of infestation probability
 Timeline animations showing pest spread
 Intervention planning maps with optimized routes
 Mobile-friendly web interface
-🌡️ Smart Weather Integration
+#  Smart Weather Integration
 
 Real-time weather data from OpenWeatherMap
 Climate suitability calculations
 Wind dispersal modeling
 Demo mode available (no API key required)
-🎯 Precision Interventions
+# Precision Interventions
 
 Drone route optimization
 Cost-effective treatment recommendations
 Resource allocation strategies
 Environmental impact minimization
-🚀 Quick Start
+# Quick Start
 Option 1: Demo Mode (Recommended for Testing)
 # No API key required!
 python main.py demo
@@ -37,9 +37,8 @@ Option 3: Full Setup with Real Weather Data
 Get free API key from OpenWeatherMap
 Copy .env.example to .env and add your key
 Run without demo mode
-📋 Requirements
+# Requirements
 System Requirements:
-
 Python 3.8+
 Windows/Linux/macOS
 2GB RAM minimum
@@ -50,7 +49,7 @@ Already Installed Dependencies:
 ✅ folium, geopandas (mapping)
 ✅ streamlit, flask (web interfaces)
 ✅ All other required packages
-Installation
+# Installation
 pip install -r requirements.txt
 Usage
 python main.py
@@ -84,10 +83,9 @@ pest/
 ├── tests/
 ├── requirements.txt
 └── main.py
-API Keys
+# API Keys
 Configure your API keys in config/settings.py:
-
 OpenWeatherMap API key
 Any additional data sources
-License
+# License
 MIT License PS C:\Users\subha\Downloads\pest> C:/Users/subha/Downloads/pest/.venv/Scripts/python.exe main.py demo C:/Users/subha/Downloads/pest/.venv/Scripts/python.exe main.py webS
